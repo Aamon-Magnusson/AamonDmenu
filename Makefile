@@ -9,10 +9,10 @@ OBJ = $(SRC:.c=.o)
 all: options dmenu stest
 
 options:
-	@echo dmenu build options:
-	@echo "CFLAGS   = $(CFLAGS)"
-	@echo "LDFLAGS  = $(LDFLAGS)"
-	@echo "CC       = $(CC)"
+#	@echo dmenu build options:
+#	@echo "CFLAGS   = $(CFLAGS)"
+#	@echo "LDFLAGS  = $(LDFLAGS)"
+#	@echo "CC       = $(CC)"
 
 .c.o:
 	$(CC) -c $(CFLAGS) $<
