@@ -23,8 +23,7 @@ elif [ $1 == "-cli" ];then
 			color="pink" ;;
 	esac
 else
-	echo "FAILED"
-	exit 0
+	$color=$1
 fi
 
 ex=".h"
