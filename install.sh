@@ -23,7 +23,7 @@ elif [ $1 == "-cli" ];then
 			color="pink" ;;
 	esac
 else
-	$color=$1
+	color=$1
 fi
 
 ex=".h"
