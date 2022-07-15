@@ -28,7 +28,9 @@ fi
 
 ex=".h"
 header="$color$ex"
-
-sed -i "s/pink.h/$header/g" config.h
-sudo make -s install clean 
-sed -i "s/$header/pink.h/g" config.h
+cd colors
+currentColor=$(awk 'NR==1{print $2}' current.h)
+mv current.h $currentColor.h
+mv $header current.h
+cd ..
+sudo make -s install clean

@@ -1,3 +1,4 @@
+// dracula
 static const char *colors[SchemeLast][2] = {
 	/*     fg         bg       */
 	[SchemeNorm] = { "#f8f8f2", "#282a36" },
