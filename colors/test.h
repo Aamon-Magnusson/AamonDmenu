@@ -1,9 +1,9 @@
 // dracula
 static const char *colors[SchemeLast][2] = {
 	/*     fg         bg       */
-	[SchemeNorm] = { "#f8f8f2", "#282a36" },
-	[SchemeSel] = { "#282a36", "#bd93f9" },
-	[SchemeOut] = { "#ff5555", "#ffb86c" },
+	[SchemeNorm] = { "#ff0000", "#00ff00" },
+	[SchemeSel] = { "#000000", "#0000ff" },
+	[SchemeOut] = { "#ffffff", "#ff00ff" },
 //	[SchemeNorm] = { "#bbbbbb", "#222222" },
 //	[SchemeSel] = { "#eeeeee", "#005577" },
 //	[SchemeOut] = { "#000000", "#00ffff" },
